@@ -56,7 +56,7 @@ networks with weights and activations constrained to +1 or
 1.[Synaptic Strength For Convolutional Neural Network](https://arxiv.org/pdf/1811.02454.pdf)
 基于连接强度修剪。【smaller-norm-less-important】
 
-![001.png](resources/A5E6E09C2AF12E36EA41F3033D31F204.png =686x335)
+![001.png](resources/A5E6E09C2AF12E36EA41F3033D31F204.png)
 
 reference:
 [Pruning filters for efficient convnets](https://arxiv.org/pdf/1608.08710.pdf)
@@ -71,7 +71,7 @@ reference:
 
 ## GAN
 [Towards Optimal Structured CNN Pruning via Generative Adversarial Learning](https://arxiv.org/pdf/1903.09291.pdf)
-![006.png](resources/C86FA3E2523940ED09D88BEF9B925C17.png =705x345)
+![006.png](resources/C86FA3E2523940ED09D88BEF9B925C17.png)
 
 1. 第一个阶段固定生成器和掩膜，通过对抗训练更新判别器D，损失函数包含对抗损失与对抗正则项；
 2. 第二阶段固定判决器，更新生成器与掩膜，损失函数包含对抗损失中的生成器与baseline特征输出的MSE损失以及生成器和掩膜的正则项。
