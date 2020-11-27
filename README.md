@@ -9,6 +9,7 @@ prunning 优点:
 
 
 ##基于度量标准的剪枝
+
 通常是提出一个判断神经元是否重要的标准，依据这个标准将不重要的神经元剪掉。主要分为三大块 weight/activation/gradient
 
 ### Weight:
